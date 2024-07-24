@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Great Debate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>The Great Debate</h1>
+        <div class="game">
+            <div class="prompt-box">
+                <h3>PROMPT</h3>
+                <div class="prompt">
+                    <div class="prompt-text-box">
+                        <p>You are going on a road trip with the next two people. Who would make the best road trip partners?</p>
+                    </div>
+                    <button id="next-button">NEXT</button>
+                </div>
+            </div>
+            <div class="score-box">
+                <h2>SCORES</h2>
+                <h3>Caiden: </h3><p class="caiden-score">0</p> 
+                <h3>Nini: </h3><p class="nini-score">0</p>
+            </div>
+            <div class="caiden-box">
+                <h3>CAIDEN</h3>
+                <div class="character-container">
+                    <span id="character-caiden-1"></span>
+                    <span id="character-caiden-2"></span>
+                    <span id="character-caiden-3"></span>
+                </div>
+                <button id="caiden-winner-button" class="winner-button">WINNER</button>
+            </div>
+            <div class="nini-box">
+                <h3>NINI</h3>
+                <div class="character-container">
+                    <span id="character-nini-1"></span>
+                    <span id="character-nini-2"></span>
+                    <span id="character-nini-3"></span>
+                </div>
+                <button id="nini-winner-button" class="winner-button">WINNER</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
